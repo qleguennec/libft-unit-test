@@ -6,7 +6,7 @@
 #    By: alelievr <alelievr@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/04/04 19:22:36 by alelievr          #+#    #+#              #
-#    Updated: 2015/11/26 20:47:52 by alelievr         ###   ########.fr        #
+#*   Updated: 2015/12/10 14:19:20 by qle-guen         ###   ########.fr       *#
 #                                                                              #
 # **************************************************************************** #
 
@@ -79,7 +79,7 @@ RUN_COLOR		=	147
 ##    AUTO     ##
 #################
 
-SHELL		=	/bin/zsh
+SHELL		=	/bin/sh
 OBJ			=	$(addprefix $(OBJDIR)/, $(addsuffix .o, $(basename $(SRC))))
 INCFLAG		=	$(addprefix -I,$(INCDIR))
 NORME		=	$(addsuffix /*.h,$(INCDIR)) $(addprefix $(SRCDIR)/,$(SRC))
